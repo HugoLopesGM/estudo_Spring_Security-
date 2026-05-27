@@ -12,7 +12,7 @@ public class ProdutoService {
     @Autowired
     private ProdutoRepository repository;
 
-    public List<ProdutoModel>listarTodos(){
+    public List<ProdutoModel>listar(){
         return repository.findAll();
     }
 
